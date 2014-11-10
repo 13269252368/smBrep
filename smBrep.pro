@@ -19,7 +19,8 @@ HEADERS += smbrep.h\
         smbrep_global.h \
     src/smentity.h \
     src/smbrep_global.h \
-    src/smbrep.h
+    src/smbrep.h \
+    src/smPrecom.h
 
 unix {
     target.path = /usr/lib
