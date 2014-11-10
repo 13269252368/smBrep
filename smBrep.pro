@@ -11,10 +11,15 @@ TEMPLATE = lib
 
 DEFINES += SMBREP_LIBRARY
 
-SOURCES += smbrep.cpp
+SOURCES += \
+    src/smentity.cpp \
+    src/smbrep.cpp
 
 HEADERS += smbrep.h\
-        smbrep_global.h
+        smbrep_global.h \
+    src/smentity.h \
+    src/smbrep_global.h \
+    src/smbrep.h
 
 unix {
     target.path = /usr/lib
